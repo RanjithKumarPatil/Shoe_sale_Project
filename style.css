@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 825px;
+  border: 4px solid black;
+  margin: 50px auto;
+}
+
+h2 {
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(202, 202, 202);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+h2::after {
+  /* font-family: sans-serif; */
+  content: "SALE";
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  background-color: orangered;
+  color: white;
+  position: absolute;
+  top: -15px;
+  left: -25px;
+  letter-spacing: 2px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+}
+#shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+a:hover,
+a:active {
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.image {
+  padding-top: 20px;
+}
+.message {
+  padding: 10px 0px;
+}
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.proDetails {
+  padding: 10px 0px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.submitbtn {
+  font-size: 15px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  border-top: 4px solid black;
+  cursor: pointer;
+}
+.submitbtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.navLinks p {
+  text-decoration: none;
+  padding: 8px;
+  background-color: yellow;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.navLinks p:first-child {
+  margin-left: 0px;
+  background-color: black;
+}
+
+.navLinks p:nth-child(2) {
+  background-color: rgb(77, 77, 246);
+}
+
+.navLinks p:nth-child(3) {
+  background-color: red;
+}
+
+.navLinks p:nth-child(4) {
+  background-color: rgb(255, 217, 0);
+}
+
+.navLinks p:nth-child(5) {
+  background-color: rgb(66, 244, 66);
+}
+.navLinks p:last-child {
+  background-color: rgba(123, 30, 30, 0.593);
+}
